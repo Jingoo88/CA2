@@ -35,10 +35,14 @@ class ComputeZscore(threading.Thread):
                                                      (str(self.row["REGION"]), str(self.row["TYPE_BATEAU_AGREGE"])))
         self.score["SCORE"] += self.coeff["PRIX_METRE"]*self.score["PRIX_METRE"]
 
-        self.score["PRIX_PUISSANCE"] = min(1000, exp(self.estimate.get_zscore(self.row["PRIX_PUISSANCE"],
-                                                                              "PRIX_PUISSANCE",
-                                                                              (str(self.row["REGION"]),
-                                                                               str(self.row["TYPE_BATEAU_AGREGE"])))) - 1)
+        to_exp = self.estimate.get_zscore(self.row["PRIX_PUISSANCE"],"PRIX_PUISSANCE",
+                                          (str(self.row["REGION"]),str(self.row["TYPE_BATEAU_AGREGE"])))
+
+        if to_exp > 4.6:
+
+            self.score["PRIX_PUISSANCE"] = 100
+        else:
+            self.score["PRIX_PUISSANCE"] = exp(to_exp) -1
 
         self.score["SCORE"] += self.coeff["PRIX_PUISSANCE"]*self.score["PRIX_PUISSANCE"]
 

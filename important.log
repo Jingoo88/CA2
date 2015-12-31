@@ -2386,3 +2386,25 @@
 2015-12-31 14:18:19,302 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
 2015-12-31 14:18:19,302 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
 2015-12-31 14:18:19,303 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:20:01,174 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:20:01,174 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:20:01,176 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:20:01,176 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:20:01,177 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:20:01,226 -- WARNING -- Data -- Some NAs filled in Note moyenne -- please try to avoid NAs
+2015-12-31 14:20:01,226 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:20:01,227 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:20:01,227 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:20:01,229 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:20:01,229 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:48:51,168 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:48:51,178 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:48:51,178 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:48:51,180 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:48:51,180 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:48:51,237 -- WARNING -- Data -- Some NAs filled in Note moyenne -- please try to avoid NAs
+2015-12-31 14:48:51,239 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:48:51,239 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:48:51,240 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:48:51,240 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:48:51,240 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs

@@ -95,13 +95,13 @@ class Estimation:
         except KeyError:
             self.zscore = 2
 
-        if self.zscore > 1000:
+        if self.zscore > 100:
 
-            self.zscore = 1000
+            self.zscore = 100
 
-        elif self.zscore < -1000:
+        elif self.zscore < -100:
 
-            self.zscore = -1000
+            self.zscore = -100
 
         elif isnan(self.zscore):
 
