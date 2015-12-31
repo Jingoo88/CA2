@@ -19412,3 +19412,135 @@ tion object
 2015-12-30 16:18:46,000 -- INFO -- DataHandler -- SQL update queries sent and terminated successfully
 2015-12-30 16:18:46,003 -- INFO -- main -- Main ended at time 1
 2015-12-30 16:18:46,003 -- INFO -- main -- Total computing time was 1 seconds
+2015-12-31 14:07:18,473 -- INFO -- main -- Main Started at time 0
+2015-12-31 14:07:18,483 -- INFO -- DataHandler -- Initializing DataHandler object
+2015-12-31 14:07:18,993 -- INFO -- DataHandler -- DataHandler object initialized
+2015-12-31 14:08:34,971 -- INFO -- main -- Main Started at time 0
+2015-12-31 14:08:34,973 -- INFO -- DataHandler -- Initializing DataHandler object
+2015-12-31 14:08:34,999 -- INFO -- DataHandler -- DataHandler object initialized
+2015-12-31 14:08:49,706 -- INFO -- main -- Main Started at time 0
+2015-12-31 14:08:49,707 -- INFO -- DataHandler -- Initializing DataHandler object
+2015-12-31 14:08:49,733 -- INFO -- DataHandler -- DataHandler object initialized
+2015-12-31 14:08:49,733 -- INFO -- PartialScore -- Initializing Score object
+2015-12-31 14:08:49,733 -- INFO -- PartialScore -- Initializing Score object
+2015-12-31 14:08:49,733 -- INFO -- Data -- Initializing Data object
+2015-12-31 14:08:49,733 -- INFO -- Data -- Data object initialized
+2015-12-31 14:08:49,734 -- INFO -- Data -- Getting clean data
+2015-12-31 14:08:52,990 -- INFO -- DataHandler -- Loaded PRODUCTS table successfully
+2015-12-31 14:08:52,992 -- INFO -- Data -- Replacing zeros
+2015-12-31 14:08:52,993 -- INFO -- Data -- Zeros replaced in Longueur
+2015-12-31 14:08:52,993 -- INFO -- Data -- Zeros replaced in Puissance
+2015-12-31 14:08:52,994 -- INFO -- Data -- Zeros replaced in delais_moyen_reponse
+2015-12-31 14:08:52,994 -- INFO -- Data -- Zeros replaced
+2015-12-31 14:08:52,994 -- INFO -- Data -- Getting date to month conversion
+2015-12-31 14:08:52,996 -- INFO -- Data -- No 'DATE_CREA_RESERVATION' key, passing
+2015-12-31 14:08:52,996 -- INFO -- Data -- replacing NAs
+2015-12-31 14:08:52,996 -- INFO -- Data -- Table has no column Note moyenne -- passing
+2015-12-31 14:08:52,996 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:08:53,016 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:08:53,016 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:08:53,017 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:08:53,019 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:08:53,019 -- INFO -- Data -- NAs replaced
+2015-12-31 14:08:53,019 -- INFO -- Data -- Discretizing 'type_bateau_id'
+2015-12-31 14:08:53,020 -- INFO -- Data -- 'Type_bateau_id' successfully discretized
+2015-12-31 14:08:53,020 -- INFO -- Data -- Discretizing 'annee construction'
+2015-12-31 14:08:53,085 -- INFO -- Data -- 'Annee_construction' successfully discretized
+2015-12-31 14:08:53,086 -- INFO -- Data -- Computing ratios
+2015-12-31 14:08:53,086 -- INFO -- Data -- Table has no key named 'PRIX_JOURNEE_DATE_TICKET', trying second set of keys
+2015-12-31 14:08:53,098 -- INFO -- Data -- Ratios prix/personne, prix/metre, prix/puissance, taux_transformation, puissance/personne successfully computed 
+2015-12-31 14:08:53,099 -- INFO -- Data -- Clean data generated -- processing
+2015-12-31 14:08:53,099 -- INFO -- PartialEstimation -- Initializing PartialEstimation object
+2015-12-31 14:08:53,099 -- INFO -- PartialEstimation -- Initializing PartialEstimation object
+2015-12-31 14:08:53,150 -- INFO -- PartialEstimation -- Estimation object initialized
+2015-12-31 14:08:53,150 -- INFO -- PartialEstimation -- Estimation object initialized
+2015-12-31 14:08:53,151 -- INFO -- PartialScore -- Score object initialized
+2015-12-31 14:08:53,151 -- INFO -- PartialScore -- Score object initialized
+2015-12-31 14:08:53,151 -- INFO -- PartialScore -- Starting score computation
+2015-12-31 14:08:53,151 -- INFO -- PartialScore -- Starting score computation
+2015-12-31 14:08:53,151 -- INFO -- PartialScore -- Computed 0 scores
+2015-12-31 14:08:53,151 -- INFO -- PartialScore -- Computed 0 scores
+2015-12-31 14:09:54,842 -- INFO -- main -- Main Started at time 0
+2015-12-31 14:09:54,842 -- INFO -- DataHandler -- Initializing DataHandler object
+2015-12-31 14:09:54,869 -- INFO -- DataHandler -- DataHandler object initialized
+2015-12-31 14:09:54,950 -- INFO -- PartialScore -- Initializing Score object
+2015-12-31 14:09:54,950 -- INFO -- PartialScore -- Initializing Score object
+2015-12-31 14:09:54,950 -- INFO -- Data -- Initializing Data object
+2015-12-31 14:09:54,950 -- INFO -- Data -- Data object initialized
+2015-12-31 14:09:54,950 -- INFO -- Data -- Getting clean data
+2015-12-31 14:09:55,114 -- INFO -- DataHandler -- Loaded PRODUCTS table successfully
+2015-12-31 14:09:55,114 -- INFO -- Data -- Replacing zeros
+2015-12-31 14:09:55,115 -- INFO -- Data -- Zeros replaced in Longueur
+2015-12-31 14:09:55,117 -- INFO -- Data -- Zeros replaced in Puissance
+2015-12-31 14:09:55,118 -- INFO -- Data -- Zeros replaced in delais_moyen_reponse
+2015-12-31 14:09:55,118 -- INFO -- Data -- Zeros replaced
+2015-12-31 14:09:55,119 -- INFO -- Data -- Getting date to month conversion
+2015-12-31 14:09:55,119 -- INFO -- Data -- No 'DATE_CREA_RESERVATION' key, passing
+2015-12-31 14:09:55,119 -- INFO -- Data -- replacing NAs
+2015-12-31 14:09:55,121 -- INFO -- Data -- Table has no column Note moyenne -- passing
+2015-12-31 14:09:55,121 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:09:55,121 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:09:55,122 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:09:55,122 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:09:55,124 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:09:55,125 -- INFO -- Data -- NAs replaced
+2015-12-31 14:09:55,125 -- INFO -- Data -- Discretizing 'type_bateau_id'
+2015-12-31 14:09:55,127 -- INFO -- Data -- 'Type_bateau_id' successfully discretized
+2015-12-31 14:09:55,127 -- INFO -- Data -- Discretizing 'annee construction'
+2015-12-31 14:09:55,131 -- INFO -- Data -- 'Annee_construction' successfully discretized
+2015-12-31 14:09:55,131 -- INFO -- Data -- Computing ratios
+2015-12-31 14:09:55,131 -- INFO -- Data -- Table has no key named 'PRIX_JOURNEE_DATE_TICKET', trying second set of keys
+2015-12-31 14:09:55,141 -- INFO -- Data -- Ratios prix/personne, prix/metre, prix/puissance, taux_transformation, puissance/personne successfully computed 
+2015-12-31 14:09:55,142 -- INFO -- Data -- Clean data generated -- processing
+2015-12-31 14:09:55,142 -- INFO -- PartialEstimation -- Initializing PartialEstimation object
+2015-12-31 14:09:55,142 -- INFO -- PartialEstimation -- Initializing PartialEstimation object
+2015-12-31 14:09:55,163 -- INFO -- PartialEstimation -- Estimation object initialized
+2015-12-31 14:09:55,163 -- INFO -- PartialEstimation -- Estimation object initialized
+2015-12-31 14:09:55,164 -- INFO -- PartialScore -- Score object initialized
+2015-12-31 14:09:55,164 -- INFO -- PartialScore -- Score object initialized
+2015-12-31 14:09:55,164 -- INFO -- PartialScore -- Starting score computation
+2015-12-31 14:09:55,164 -- INFO -- PartialScore -- Starting score computation
+2015-12-31 14:09:55,164 -- INFO -- PartialScore -- Computed 0 scores
+2015-12-31 14:09:55,164 -- INFO -- PartialScore -- Computed 0 scores
+2015-12-31 14:12:08,844 -- INFO -- main -- Main Started at time 0
+2015-12-31 14:12:08,844 -- INFO -- DataHandler -- Initializing DataHandler object
+2015-12-31 14:12:08,869 -- INFO -- DataHandler -- DataHandler object initialized
+2015-12-31 14:12:08,913 -- INFO -- PartialScore -- Initializing Score object
+2015-12-31 14:12:08,913 -- INFO -- PartialScore -- Initializing Score object
+2015-12-31 14:12:08,914 -- INFO -- Data -- Initializing Data object
+2015-12-31 14:12:08,914 -- INFO -- Data -- Data object initialized
+2015-12-31 14:12:08,914 -- INFO -- Data -- Getting clean data
+2015-12-31 14:12:09,750 -- INFO -- DataHandler -- Loaded PRODUCTS table successfully
+2015-12-31 14:12:09,750 -- INFO -- Data -- Replacing zeros
+2015-12-31 14:12:09,753 -- INFO -- Data -- Zeros replaced in Longueur
+2015-12-31 14:12:09,756 -- INFO -- Data -- Zeros replaced in Puissance
+2015-12-31 14:12:09,759 -- INFO -- Data -- Zeros replaced in delais_moyen_reponse
+2015-12-31 14:12:09,759 -- INFO -- Data -- Zeros replaced
+2015-12-31 14:12:09,759 -- INFO -- Data -- Getting date to month conversion
+2015-12-31 14:12:09,760 -- INFO -- Data -- No 'DATE_CREA_RESERVATION' key, passing
+2015-12-31 14:12:09,760 -- INFO -- Data -- replacing NAs
+2015-12-31 14:12:09,760 -- INFO -- Data -- Table has no column Note moyenne -- passing
+2015-12-31 14:12:09,763 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:12:09,763 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:12:09,765 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:12:09,766 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:12:09,766 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:12:09,767 -- INFO -- Data -- NAs replaced
+2015-12-31 14:12:09,767 -- INFO -- Data -- Discretizing 'type_bateau_id'
+2015-12-31 14:12:09,769 -- INFO -- Data -- 'Type_bateau_id' successfully discretized
+2015-12-31 14:12:09,770 -- INFO -- Data -- Discretizing 'annee construction'
+2015-12-31 14:12:09,772 -- INFO -- Data -- 'Annee_construction' successfully discretized
+2015-12-31 14:12:09,772 -- INFO -- Data -- Computing ratios
+2015-12-31 14:12:09,772 -- INFO -- Data -- Table has no key named 'PRIX_JOURNEE_DATE_TICKET', trying second set of keys
+2015-12-31 14:12:09,775 -- INFO -- Data -- Ratios prix/personne, prix/metre, prix/puissance, taux_transformation, puissance/personne successfully computed 
+2015-12-31 14:12:09,776 -- INFO -- Data -- Clean data generated -- processing
+2015-12-31 14:12:09,776 -- INFO -- PartialEstimation -- Initializing PartialEstimation object
+2015-12-31 14:12:09,776 -- INFO -- PartialEstimation -- Initializing PartialEstimation object
+2015-12-31 14:12:09,786 -- INFO -- PartialEstimation -- Estimation object initialized
+2015-12-31 14:12:09,786 -- INFO -- PartialEstimation -- Estimation object initialized
+2015-12-31 14:12:09,786 -- INFO -- PartialScore -- Score object initialized
+2015-12-31 14:12:09,786 -- INFO -- PartialScore -- Score object initialized
+2015-12-31 14:12:09,788 -- INFO -- PartialScore -- Starting score computation
+2015-12-31 14:12:09,788 -- INFO -- PartialScore -- Starting score computation
+2015-12-31 14:12:09,792 -- INFO -- PartialScore -- Computed 2 scores
+2015-12-31 14:12:09,792 -- INFO -- PartialScore -- Computed 2 scores

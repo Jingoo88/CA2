@@ -1,13 +1,13 @@
 import time
 import log
 import json
+import getopt
 from sys import argv
 from Score import Score
 from DataHandler import DataHandler
 from PartialScore import PartialScore
 
 __author__ = 'Thomas'
-
 
 logger = log.setup_custom_logger("Main")
 
@@ -19,24 +19,29 @@ with open('test.json') as data_file:
     data = json.load(data_file)
 
 data_handler = DataHandler(usr=data["usr"], table=data["table"], url=data["url"], pwd=data["pwd"])
+myopts, args = getopt.getopt(argv[1:], "c:i:", ["coeffs=", "ids="])
 
 if len(argv) > 1:
 
-    cmd_input = argv[1].split(",")
-
-    assert len(cmd_input) > 12, "User must provide all 12 new coefficients and requested ids"
+    for i, j in myopts:
+        if i == "--ids" or i == "-i":
+            requested_ids = j.split(",")
+        elif i == "--coeffs" or i == "-c":
+            input_coeffs = j.split(",")
 
     coeffs = {}
+
+    assert len(input_coeffs) == 12, "User must provide exactly 12 coefficients"
+    assert len(requested_ids) > 0, "No ids requested"
 
     coeff_list = ["PUISSANCE_PERSONNE", "TAUX_DE_TRANSFORMATION", "PRIX_PERSONNE",
      "PRIX_METRE", "PRIX_PUISSANCE", "DELAIS_MOYEN_REPONSE_MESSAGES", "MOYENNE_EVALUATIONS_GLOBALE",
      "CO_NAV_UNIQUEMENT", "A_QUAI_UNIQUMENT", "NB_IMAGES", "PHOTO_PROFIL", "ANNEE_CONSTRUCTION_AGREGE"]
 
-    for i in range(1, 13):
+    for i in range(len(input_coeffs)):
 
-        coeffs[coeff_list[i-1]] = float(cmd_input[i])
-
-    requested_ids = cmd_input[12:]
+        coeffs[coeff_list[i-1]] = float(input_coeffs[i])
+    print coeffs
 
     request_append = "AND P1.PK_PRODUITS IN ("
 
@@ -71,6 +76,8 @@ if len(argv) > 1:
     WHERE P1.DATE_SUPPRESSION IS NULL "
 
     query += request_append
+
+    print query
 
     score = PartialScore(coeffs, query, data_handler, requested_ids)
     score.print_for_flo()
