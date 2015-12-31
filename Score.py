@@ -46,8 +46,6 @@ class Score:
         for i, row in row_iterator:
 
             count += 1
-            if i in self.score.keys():
-                print i
 
             thread = ComputeZscore(self.estimate, row, i, self.coeff)
             thread.start()

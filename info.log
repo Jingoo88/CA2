@@ -19544,3 +19544,103 @@ tion object
 2015-12-31 14:12:09,788 -- INFO -- PartialScore -- Starting score computation
 2015-12-31 14:12:09,792 -- INFO -- PartialScore -- Computed 2 scores
 2015-12-31 14:12:09,792 -- INFO -- PartialScore -- Computed 2 scores
+2015-12-31 14:18:16,447 -- INFO -- main -- Main Started at time 0
+2015-12-31 14:18:16,448 -- INFO -- DataHandler -- Initializing DataHandler object
+2015-12-31 14:18:16,476 -- INFO -- DataHandler -- DataHandler object initialized
+2015-12-31 14:18:16,477 -- INFO -- Score -- Initializing Score object
+2015-12-31 14:18:16,477 -- INFO -- Score -- Initializing Score object
+2015-12-31 14:18:16,477 -- INFO -- Data -- Initializing Data object
+2015-12-31 14:18:16,477 -- INFO -- Data -- Data object initialized
+2015-12-31 14:18:16,479 -- INFO -- Data -- Getting clean data
+2015-12-31 14:18:18,946 -- INFO -- DataHandler -- Loaded PRODUCTS table successfully
+2015-12-31 14:18:18,947 -- INFO -- Data -- Replacing zeros
+2015-12-31 14:18:18,948 -- INFO -- Data -- Zeros replaced in Longueur
+2015-12-31 14:18:18,950 -- INFO -- Data -- Zeros replaced in Puissance
+2015-12-31 14:18:18,951 -- INFO -- Data -- Zeros replaced in delais_moyen_reponse
+2015-12-31 14:18:18,951 -- INFO -- Data -- Zeros replaced
+2015-12-31 14:18:18,951 -- INFO -- Data -- Getting date to month conversion
+2015-12-31 14:18:18,951 -- INFO -- Data -- No 'DATE_CREA_RESERVATION' key, passing
+2015-12-31 14:18:18,951 -- INFO -- Data -- replacing NAs
+2015-12-31 14:18:18,951 -- INFO -- Data -- Table has no column Note moyenne -- passing
+2015-12-31 14:18:18,953 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:18:18,953 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:18:18,953 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:18:18,954 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:18:18,954 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:18:18,956 -- INFO -- Data -- NAs replaced
+2015-12-31 14:18:18,956 -- INFO -- Data -- Discretizing 'type_bateau_id'
+2015-12-31 14:18:18,957 -- INFO -- Data -- 'Type_bateau_id' successfully discretized
+2015-12-31 14:18:18,957 -- INFO -- Data -- Discretizing 'annee construction'
+2015-12-31 14:18:18,960 -- INFO -- Data -- 'Annee_construction' successfully discretized
+2015-12-31 14:18:18,960 -- INFO -- Data -- Computing ratios
+2015-12-31 14:18:18,960 -- INFO -- Data -- Table has no key named 'PRIX_JOURNEE_DATE_TICKET', trying second set of keys
+2015-12-31 14:18:18,963 -- INFO -- Data -- Ratios prix/personne, prix/metre, prix/puissance, taux_transformation, puissance/personne successfully computed 
+2015-12-31 14:18:18,963 -- INFO -- Data -- Clean data generated -- processing
+2015-12-31 14:18:18,963 -- INFO -- Estimation -- Initializing Estimation object
+2015-12-31 14:18:18,963 -- INFO -- Estimation -- Initializing Estimation object
+2015-12-31 14:18:18,963 -- INFO -- Data -- Initializing Data object
+2015-12-31 14:18:18,963 -- INFO -- Data -- Data object initialized
+2015-12-31 14:18:18,963 -- INFO -- Data -- Getting clean data
+2015-12-31 14:18:19,290 -- INFO -- DataHandler -- Loaded RESERVATIONS table successfully
+2015-12-31 14:18:19,290 -- INFO -- Data -- Replacing zeros
+2015-12-31 14:18:19,292 -- INFO -- Data -- Zeros replaced in Longueur
+2015-12-31 14:18:19,293 -- INFO -- Data -- Zeros replaced in Puissance
+2015-12-31 14:18:19,296 -- INFO -- Data -- Zeros replaced in delais_moyen_reponse
+2015-12-31 14:18:19,296 -- INFO -- Data -- Zeros replaced
+2015-12-31 14:18:19,296 -- INFO -- Data -- Getting date to month conversion
+2015-12-31 14:18:19,299 -- INFO -- Data -- Date to month conversion successful
+2015-12-31 14:18:19,299 -- INFO -- Data -- replacing NAs
+2015-12-31 14:18:19,299 -- WARNING -- Data -- Some NAs filled in Note moyenne -- please try to avoid NAs
+2015-12-31 14:18:19,301 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:18:19,302 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:18:19,302 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:18:19,302 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:18:19,303 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:18:19,303 -- INFO -- Data -- NAs replaced
+2015-12-31 14:18:19,303 -- INFO -- Data -- Discretizing 'type_bateau_id'
+2015-12-31 14:18:19,305 -- INFO -- Data -- 'Type_bateau_id' successfully discretized
+2015-12-31 14:18:19,306 -- INFO -- Data -- Discretizing 'annee construction'
+2015-12-31 14:18:19,306 -- INFO -- Data -- 'Annee_construction' successfully discretized
+2015-12-31 14:18:19,308 -- INFO -- Data -- Computing ratios
+2015-12-31 14:18:19,311 -- INFO -- Data -- Ratios prix/personne, prix/metre, prix/puissance, taux_transformation, puissance/personne successfully computed 
+2015-12-31 14:18:19,311 -- INFO -- Data -- Clean data generated -- processing
+2015-12-31 14:18:19,312 -- INFO -- Estimation -- Estimation object initialized
+2015-12-31 14:18:19,312 -- INFO -- Estimation -- Estimation object initialized
+2015-12-31 14:18:19,312 -- INFO -- Estimation -- Starting deviations computing
+2015-12-31 14:18:19,312 -- INFO -- Estimation -- Starting deviations computing
+2015-12-31 14:18:19,323 -- INFO -- Estimation -- PUISSANCE_PERSONNE deviations computed
+2015-12-31 14:18:19,323 -- INFO -- Estimation -- PUISSANCE_PERSONNE deviations computed
+2015-12-31 14:18:19,323 -- INFO -- Estimation -- TAUX_DE_TRANSFORMATION deviations computed
+2015-12-31 14:18:19,323 -- INFO -- Estimation -- TAUX_DE_TRANSFORMATION deviations computed
+2015-12-31 14:18:19,325 -- INFO -- Estimation -- PRIX_PERSONNE deviations computed
+2015-12-31 14:18:19,325 -- INFO -- Estimation -- PRIX_PERSONNE deviations computed
+2015-12-31 14:18:19,325 -- INFO -- Estimation -- PRIX_METRE deviations computed
+2015-12-31 14:18:19,325 -- INFO -- Estimation -- PRIX_METRE deviations computed
+2015-12-31 14:18:19,325 -- INFO -- Estimation -- PRIX_PUISSANCE deviations computed
+2015-12-31 14:18:19,325 -- INFO -- Estimation -- PRIX_PUISSANCE deviations computed
+2015-12-31 14:18:19,326 -- INFO -- Estimation -- DELAIS_MOYEN_REPONSE_MESSAGES deviations computed
+2015-12-31 14:18:19,326 -- INFO -- Estimation -- DELAIS_MOYEN_REPONSE_MESSAGES deviations computed
+2015-12-31 14:18:19,335 -- INFO -- Estimation -- Starting means computing
+2015-12-31 14:18:19,335 -- INFO -- Estimation -- Starting means computing
+2015-12-31 14:18:19,335 -- INFO -- Estimation -- PUISSANCE_PERSONNE means computed
+2015-12-31 14:18:19,335 -- INFO -- Estimation -- PUISSANCE_PERSONNE means computed
+2015-12-31 14:18:19,336 -- INFO -- Estimation -- TAUX_DE_TRANSFORMATION means computed
+2015-12-31 14:18:19,336 -- INFO -- Estimation -- TAUX_DE_TRANSFORMATION means computed
+2015-12-31 14:18:19,336 -- INFO -- Estimation -- PRIX_PERSONNE means computed
+2015-12-31 14:18:19,336 -- INFO -- Estimation -- PRIX_PERSONNE means computed
+2015-12-31 14:18:19,338 -- INFO -- Estimation -- PRIX_METRE means computed
+2015-12-31 14:18:19,338 -- INFO -- Estimation -- PRIX_METRE means computed
+2015-12-31 14:18:19,338 -- INFO -- Estimation -- PRIX_PUISSANCE means computed
+2015-12-31 14:18:19,338 -- INFO -- Estimation -- PRIX_PUISSANCE means computed
+2015-12-31 14:18:19,338 -- INFO -- Estimation -- DELAIS_MOYEN_REPONSE_MESSAGES means computed
+2015-12-31 14:18:19,338 -- INFO -- Estimation -- DELAIS_MOYEN_REPONSE_MESSAGES means computed
+2015-12-31 14:18:19,346 -- INFO -- Score -- Score object initialized
+2015-12-31 14:18:19,346 -- INFO -- Score -- Score object initialized
+2015-12-31 14:18:19,348 -- INFO -- Score -- Starting score computation
+2015-12-31 14:18:19,348 -- INFO -- Score -- Starting score computation
+2015-12-31 14:18:20,154 -- INFO -- Score -- Computed 623 scores
+2015-12-31 14:18:20,154 -- INFO -- Score -- Computed 623 scores
+2015-12-31 14:18:20,154 -- INFO -- DataHandler -- Multi-threading sql update tables
+2015-12-31 14:18:26,960 -- INFO -- DataHandler -- SQL update queries sent and terminated successfully
+2015-12-31 14:18:26,963 -- INFO -- main -- Main ended at time 10
+2015-12-31 14:18:26,964 -- INFO -- main -- Total computing time was 10 seconds

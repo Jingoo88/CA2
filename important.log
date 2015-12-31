@@ -2375,3 +2375,14 @@
 2015-12-31 14:12:09,765 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
 2015-12-31 14:12:09,766 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
 2015-12-31 14:12:09,766 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:18:18,953 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:18:18,953 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:18:18,953 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:18:18,954 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:18:18,954 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
+2015-12-31 14:18:19,299 -- WARNING -- Data -- Some NAs filled in Note moyenne -- please try to avoid NAs
+2015-12-31 14:18:19,301 -- WARNING -- Data -- Some NAs filled in delais_reponse_message -- please try to avoid NAs
+2015-12-31 14:18:19,302 -- WARNING -- Data -- Some NAs filled in capacite_conseillee -- please try to avoid NAs
+2015-12-31 14:18:19,302 -- WARNING -- Data -- Some NAs filled in longueur -- please try to avoid NAs
+2015-12-31 14:18:19,302 -- WARNING -- Data -- Some NAs filled in Annee_construction -- please try to avoid NAs
+2015-12-31 14:18:19,303 -- WARNING -- Data -- Some NAs filled in Puissance -- please try to avoid NAs
