@@ -42,7 +42,7 @@ class ComputeZscore(threading.Thread):
 
             self.score["PRIX_PUISSANCE"] = 100
         else:
-            self.score["PRIX_PUISSANCE"] = exp(to_exp) -1
+            self.score["PRIX_PUISSANCE"] = exp(to_exp) - 1
 
         self.score["SCORE"] += self.coeff["PRIX_PUISSANCE"]*self.score["PRIX_PUISSANCE"]
 
