@@ -53,6 +53,7 @@ var_map = {'builder':"CONSTRUCTEUR", 'Displacement':"DEPLACEMENT", 'Beam':"MAITR
             'engine power': "PUISSANCE_MOTEUR", "id":"ID_MODELE"}
 
 for z in product_dict.keys():
+
     if "Power Boat" in product_dict[z]["type"]:
         if "Rubber" in product_dict[z]["type"]:
             product_dict[z]["type"] = 4
@@ -62,6 +63,10 @@ for z in product_dict.keys():
         product_dict[z]["type"] = 3
     elif "Trimaran" in product_dict[z]["type"]:
         product_dict[z]["type"] = 3
+    elif "Rubber" in product_dict[z]["type"]:
+        print product_dict[z]["type"]
+        product_dict[z]["type"] = 4
+
     else:
         product_dict[z]["type"] = 1
 
@@ -89,7 +94,7 @@ for z in product_dict.keys():
 
 for key in product_dict:
     try:
-        request = "UPDATE modeles SET LONGUEUR = %(long).9f WHERE ID_MODELE = %(id)i"%{"long": product_dict[key]["Length"], "id": product_dict[key]["id"]}
+        request = "UPDATE modeles SET LONGUEUR = %(type).9f WHERE ID_MODELE = %(id)i"%{"type": product_dict[key]["Length"], "id": product_dict[key]["id"]}
         data_handler.exec_request(request)
     except:
         pass
