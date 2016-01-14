@@ -58,20 +58,33 @@ class ComputeZscore(threading.Thread):
         self.score["SCORE"] += self.coeff["TAUX_DE_TRANSFORMATION"]*self.score["TAUX_DE_TRANSFORMATION"]
 
         if 0 < self.row["MOYENNE_EVALUATIONS_GLOBALE"] <= 4:
+            self.score["MOYENNE_EVALUATIONS_GLOBALE"] = 2
             self.score["SCORE"] += self.coeff["MOYENNE_EVALUATIONS_GLOBALE"]*2
 
         if self.row["CO_NAV_UNIQUEMENT"] == 1:
+            self.score["CO_NAV_UNIQUEMENT"] = 4
             self.score["SCORE"] += self.coeff["CO_NAV_UNIQUEMENT"]*4
+
         if self.row["A_QUAI_UNIQUEMENT"] == 1:
+            self.score["A_QUAI_UNIQUEMENT"] = 1000
             self.score["SCORE"] += self.coeff["A_QUAI_UNIQUEMENT"]*1000
+
         if self.row["NB_IMAGES"] < 2:
+            self.score["NB_IMAGES"] = 2
             self.score["SCORE"] += self.coeff["NB_IMAGES"]*2
+
         if self.row["ANNEE_CONSTRUCTION_AGREGE"] == "- de 10 ans":
+            self.score["ANNEE_CONSTRUCTION_AGREGE"] = 1
             self.score["SCORE"] += self.coeff["ANNEE_CONSTRUCTION_AGREGE"]*1
         elif self.row["ANNEE_CONSTRUCTION_AGREGE"] == "- de 15 ans":
+            self.score["ANNEE_CONSTRUCTION_AGREGE"] = 2
             self.score["SCORE"] += self.coeff["ANNEE_CONSTRUCTION_AGREGE"]*2
         elif self.row["ANNEE_CONSTRUCTION_AGREGE"] == "+ de 15 ans":
+            self.score["ANNEE_CONSTRUCTION_AGREGE"] = 3
             self.score["SCORE"] += self.coeff["ANNEE_CONSTRUCTION_AGREGE"]*3
+        else:
+            self.score["ANNEE_CONSTRUCTION_AGREGE"] = 0
+            self.score["SCORE"] += self.coeff["ANNEE_CONSTRUCTION_AGREGE"]*0
 
         return self.score, self.index
 
