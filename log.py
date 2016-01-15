@@ -10,11 +10,11 @@ def setup_custom_logger(name):
     formatter = logging.Formatter("%(asctime)s -- %(levelname)s -- %(module)s -- %(message)s")
 
     logger = logging.getLogger(name)
-    handler = logging.handlers.RotatingFileHandler("info.log", mode="a",
-                                                   maxBytes=10000000, backupCount=1, encoding="utf-8")
+    handler = logging.handlers.RotatingFileHandler("info.log", mode="w",
+                                                   maxBytes=1000, backupCount=1, encoding="utf-8")
     handler.setFormatter(formatter)
-    high_handler = logging.handlers.RotatingFileHandler("important.log", mode="a",
-                                                        maxBytes=10000000, backupCount=1, encoding="utf-8")
+    high_handler = logging.handlers.RotatingFileHandler("important.log", mode="w",
+                                                        maxBytes=1000, backupCount=1, encoding="utf-8")
     high_handler.setLevel(logging.WARNING)
     high_handler.setFormatter(formatter)
     logger.setLevel(logging.INFO)
